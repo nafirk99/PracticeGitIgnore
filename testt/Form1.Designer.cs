@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             comboBox1 = new ComboBox();
+            checkedListBox1 = new CheckedListBox();
             SuspendLayout();
             // 
             // button1
@@ -49,11 +50,20 @@
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 1;
             // 
+            // checkedListBox1
+            // 
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Location = new Point(492, 115);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new Size(120, 94);
+            checkedListBox1.TabIndex = 2;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkedListBox1);
             Controls.Add(comboBox1);
             Controls.Add(button1);
             Name = "Form1";
@@ -65,5 +75,6 @@
 
         private Button button1;
         private ComboBox comboBox1;
+        private CheckedListBox checkedListBox1;
     }
 }
