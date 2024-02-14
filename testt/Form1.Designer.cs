@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            comboBox1 = new ComboBox();
             SuspendLayout();
             // 
             // button1
@@ -40,11 +41,20 @@
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(373, 206);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
@@ -54,5 +64,6 @@
         #endregion
 
         private Button button1;
+        private ComboBox comboBox1;
     }
 }
